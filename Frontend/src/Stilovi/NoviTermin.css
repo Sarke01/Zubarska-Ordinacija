@@ -1,0 +1,64 @@
+.novi-termin-container {
+    margin: 20px;
+  }
+  
+  .novi-termin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  select,
+  textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .novi-termin-container {
+    margin: 20px;
+    max-width: 400px; /* Dodajte ovu liniju */
+    margin-left: auto; /* Dodajte ovu liniju */
+    margin-right: auto; /* Dodajte ovu liniju */
+  }
+  
+ .error-message{
+    color: red;
+    position: absolute;
+    bottom: -20px;
+    display: none;
+  }
+
+  #form-group-datum{
+    display: flex;
+  }
+
+  p{
+    margin-top: 0;
+  }
+  

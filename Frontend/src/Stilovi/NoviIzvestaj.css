@@ -1,0 +1,58 @@
+.custom-form  {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+  }
+  
+  .custom-form  .forma-grupa {
+    margin-bottom: 15px;
+  }
+
+  .custom-form form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .custom-form h2 {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .custom-form  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+  }
+  
+.custom-form input[type="text"],
+.custom-form input[type="email"],
+.custom-form textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .custom-form button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .custom-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .custom-form textarea {
+    resize: none;
+  }
+  
