@@ -1,0 +1,92 @@
+
+.napomena2:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+table button{
+    width: 40%;
+    height: 40px;
+    font-size: 1rem;
+}
+
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+}
+
+.popup-inner .close-btn{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;  
+}
+
+.popup-inner h2{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.close-btn  {
+    width: 50px;
+    cursor: pointer;
+}
+
+
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+  }
+
+  .input-container textarea {
+    resize: none;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 1.25rem;
+  }
+
+  .flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .zakazi-button{
+    margin: 20px;
+    width: 150px;
+  }
+
+  .odbij-button{
+    margin: 20px;
+    background-color: red;
+    font-size: 1.25rem;
+    width: 150px;
+  }

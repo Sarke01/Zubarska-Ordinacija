@@ -1,0 +1,63 @@
+.registracija-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../slike/zub.png");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .registracija-forma {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .registracija-forma h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-group2 {
+    margin-bottom: 15px;
+    width: 80%;
+  }
+  
+  .input-group2 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-group2 input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-button button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .submit-button button:hover {
+    background-color: #0056b3;
+  }
+
+  .registracija-btn{
+    padding: 15px;
+    font-size: large;
+  }
+  
